@@ -1,0 +1,26 @@
+{
+  "name": "js-tdd-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "benchmark.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guy-deMessimy/js-tdd-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guy-deMessimy/js-tdd-intro/issues"
+  },
+  "homepage": "https://github.com/Guy-deMessimy/js-tdd-intro#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}

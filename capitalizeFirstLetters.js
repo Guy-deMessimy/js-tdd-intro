@@ -5,12 +5,9 @@ function capitalizeFirstLetters (input) {
    ? input.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())))
    : ""
     };
+//w word/non-word character
+//S non-space character
+//* occurence indicators
+//^ start-of-line 
 
-assert.strictEqual(typeof capitalizeFirstLetters, 'function');
-assert.strictEqual(capitalizeFirstLetters.length, 1);
-// Check that capitalizeFirstLetters transforms string correctly
-assert.strictEqual(capitalizeFirstLetters('i am learning TDD'), 'I Am Learning TDD');
-// Check that it works for a 1-character string
-assert.strictEqual(capitalizeFirstLetters('z'), 'Z');
-// Check that it works for an empty string
-assert.strictEqual(capitalizeFirstLetters(''), '');
+module.exports = capitalizeFirstLetters;
