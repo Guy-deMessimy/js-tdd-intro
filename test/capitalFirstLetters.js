@@ -1,7 +1,7 @@
 const assert = require('assert');
 const capitalizeFirstLetters = require ('../capitalizeFirstLetters');
 
-describe('toto', () => {
+describe('capitalizeFirstLetters', () => {
     it('is a function accepting one argument', () => {
         assert.strictEqual(typeof capitalizeFirstLetters, 'function');
         assert.strictEqual(capitalizeFirstLetters.length, 1);
