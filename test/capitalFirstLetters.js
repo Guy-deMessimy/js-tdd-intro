@@ -18,4 +18,4 @@ describe('toto', () => {
     it('works with an empty string', () => {
         assert.strictEqual(capitalizeFirstLetters(''), '');
       });
-});
+})
